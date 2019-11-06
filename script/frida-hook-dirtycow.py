@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+
+# python code from https://github.com/frida/frida-python/blob/master/examples/child_gating.py
+# modification:
+# * from python3 to python 2.7
+# * frida script for intercepting dirtyCow sample
+
 from __future__ import print_function
 import frida
 from frida_tools.application import Reactor
